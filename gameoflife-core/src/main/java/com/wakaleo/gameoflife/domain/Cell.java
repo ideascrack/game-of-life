@@ -3,7 +3,7 @@ package com.wakaleo.gameoflife.domain;
  /**
  * Wakaleo Consulting - John Ferguson Smart
  * Game of life, demonstration application for Jenkins: The Definitive Guide
- *
+ * Adding prashanth bhat
  * Cell.java
  * Cell object class, contains information on individual cells (positions) in the grid
  */
@@ -24,7 +24,7 @@ public enum Cell {
         return symbol;
     }
 
-	// Function used for creating a cell given a string
+	// Function used for creating a cell given a string - prashanth bhat
     static Cell fromSymbol(final String symbol) {
         Cell cellRepresentedBySymbol = null;
         for (Cell cell : Cell.values()) {
